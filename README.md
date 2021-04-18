@@ -70,4 +70,4 @@ The name of the project was inspired by Doom Emacs - [github.com/hlissner/doom-e
 
 ## License
 
-This project uses the following license: [GPLv3](LICENSE).
+This project uses the following license: [GPLv3](https://github.com/0xHaru/DOOMGIT/blob/master/LICENSE).
