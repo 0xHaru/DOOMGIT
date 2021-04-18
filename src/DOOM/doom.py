@@ -86,6 +86,9 @@ class Resource:
         except FileExistsError:
             choice = prompt_util.prompt(path)
             prompt_util.traversal_handler(choice, path, json, self)
+        except TypeError as e:
+            util.exception_handler(e, json)
+            exit(1)
 
 
 class Directory(Resource):

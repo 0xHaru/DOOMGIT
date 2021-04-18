@@ -42,9 +42,6 @@ def main():
         exit(0)
     except prompt_util.PromptException:
         exit(1)
-    except TypeError as e:
-        util.exception_handler(e, json)
-        exit(1)
     except Exception as e:
         util.exception_handler(e, json)
         exit(1)
